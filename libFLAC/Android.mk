@@ -4,6 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES:= \
 	bitmath.c \
 	bitreader.c \
+	bitwriter.c \
 	cpu.c \
 	crc.c \
 	fixed.c \
@@ -11,7 +12,10 @@ LOCAL_SRC_FILES:= \
 	format.c \
 	lpc.c \
 	memory.c \
+	md5.c \
 	stream_decoder.c \
+	stream_encoder.c \
+	stream_encoder_framing.c \
 	window.c
 
 LOCAL_C_INCLUDES += \
